@@ -1,0 +1,220 @@
+#form{
+	padding: 55px 0;
+}
+#form .texts{
+	display: flex;
+	align-items: center;
+}
+#form .text h1{
+	font-size: 36px;
+	font-weight: 700;
+	margin-bottom: 18px;
+	line-height: 42px;
+	animation-delay: 0.3s;
+}
+#form .text p{
+	font-size: 22px;
+	line-height: 25px;
+	margin-bottom: 18px;
+	animation-delay: 0.5s;
+}
+#form .text ul li{
+	padding-left: 22px;
+	position: relative;
+	animation-delay: 0.7s;
+}
+#form .text ul li::after{
+	content: "";
+	width: 8px;
+	height: 8px;
+	background: #E2173D;
+	position: absolute;
+	border-radius: 100px;
+	left: 4px;
+	bottom: 7px;
+}
+#form .bg-form{
+	position: relative;
+}
+#form .bg-form > img{
+	height: 400px;
+}
+#form .bg-form form{
+	position: absolute;
+	top: 0;
+	left: 32%;
+	background: #fff;
+	width: 370px;
+	height: 393px;
+	border-radius: 4px;
+	padding: 40px 32px;
+	animation-delay: 0.1s;
+}
+#form .bg-form form p{
+	font-size: 22px;
+	font-weight: 700;
+	margin-bottom: 33px;
+}
+#form .bg-form form label{
+	width: 100%;
+}
+#form .bg-form form label input{
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #CCCCCC;
+	font-size: 16px;
+	padding-bottom: 12.5px;
+	margin-bottom: 23px;
+}
+#form .bg-form form label:last-child input{
+	margin-bottom: 0px;
+}
+#form .bg-form form input[type=submit]{
+	width: 100%;
+}
+#section1{
+	padding: 65px 0;
+}
+#section1 span{
+	width: 64px;
+	height: 64px;
+	background: #EBF6FA;
+	border-radius: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: 700;
+	color: #2988B5;
+	font-size: 23px;
+}
+#section1 p.titulo{
+	font-weight: 700;
+	padding-left: 35px;
+	margin-bottom: 8px;
+}
+#section1 p.text{
+	padding-left: 35px;
+	margin-bottom: 35px;
+}
+#section1 a{
+	color: #fff;
+	width: 306px;
+	margin-top: 10px;
+}
+#section2{
+	padding: 65px 0;
+}
+#section2 .list .line{
+	margin-bottom: 15px;
+}
+#section2 .list .titulo{
+margin-bottom: 4px;
+font-weight: 700;
+}
+#section2 .list .text{
+	margin-bottom: 0;
+
+}
+#section2 .list .icon{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#section2 .list img{
+	width: 24px;
+}
+#section2 .image-left{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#section2 .image-left img{
+	width: 100%;
+}
+#section2 a{
+	color: #fff;
+	width: 306px;
+	margin-top: 40px;
+}
+#faq {
+    padding: 65px 0 65px 0;
+    position: relative;
+}
+#faq .title{
+    margin-bottom: 65px;
+}
+#faq .faqs a{
+    width: 100%;
+    display: block;
+    padding: 15px 0 15px 20px;
+    z-index: 2;
+    position: relative;
+    color: #666666;
+	font-size: 22px;
+	font-weight: 600;
+}
+#faq .faqs p{
+    width: 100%;
+    display: block;
+    padding: 0px 35px 15px 35px;
+    color: #666666;
+	font-size: 18px;
+	height: 0;
+	display: none;
+}
+#faq .faqs .text.active p{
+	height: auto;
+	display: inline-block;
+}
+#faq .faqs a:hover{
+	text-decoration: none;
+	color: #666666;
+}
+#faq .faqs li{
+	border: 1px solid #BEBEBE;
+	margin-bottom: 24px;
+}
+#faq .faqs li:last-child{
+	margin-bottom: 0;
+}
+#faq .faqs a:after{
+    content: '';
+    position: absolute;
+    right: 15px;
+    background: url("../img/mais.svg");
+    height: 24px;
+    width: 24px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 18px;
+    transition: 0.4s;
+}
+#faq .faqs a.active:after{
+    content: '';
+    position: absolute;
+    right: 15px;
+    background: url("../img/menos.svg");
+    height: 24px;
+    width: 24px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 18px;
+    transition: 0.4s;
+}
+#faq .faqs span{
+    font-weight: 700;
+    margin-bottom: 8px;
+    display: block;
+}
+#faq .faqs .text{
+    opacity: 0;
+    position: relative;
+    height: 0;
+    transition: 0.2s;
+}
+#faq .faqs .text.active {
+    display: block;
+    height: auto;
+    opacity: 1;
+    transition: 0.5s;
+}
